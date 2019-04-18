@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 rm -f ~/.my-credentials
 rm -rf /codefresh/volume/${CF_REPO_NAME}
 git config --global credential.helper 'store --file ~/.my-credentials'
