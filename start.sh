@@ -2,7 +2,7 @@
 
 # removing old folders
 rm -f ~/.my-credentials || true
-rm -rf /codefresh/volume/${CF_REPO_NAME} || true
+rm -rf ${CF_REPO_NAME} || true
 
 # authenticating using git credentials.helper
 git config --global credential.helper 'store --file ~/.my-credentials'
