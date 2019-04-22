@@ -10,6 +10,7 @@ echo https://${GIT_USER}:${GIT_PASSWORD}@git-codecommit.${REGION}.amazonaws.com 
 
 # cloning the repo
 git clone https://git-codecommit.${REGION}.amazonaws.com/v1/repos/${CF_REPO_NAME} /codefresh/volume/${CF_REPO_NAME}
+cd ${CF_REPO_NAME}
 
 # checking out branch
 git checkout ${CF_BRANCH}
