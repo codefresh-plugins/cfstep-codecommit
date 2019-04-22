@@ -1,0 +1,19 @@
+image: cfstepcodecommit
+tag: "master"
+version: "0.1.0"
+description: Plugin to ...
+keywords:
+  - kw1
+  - kw2
+categories:
+  - GIT
+sources:
+  - https://github.com/guysalton-codefresh/cfstep-codecommit
+maintainers: 
+  - name: Guy Salton
+    email: guy.salton@codefresh.io
+icon: https://d1.awsstatic.com/Projects/aws-product-service-icon/codecommit_console_icon.377d6269182e425b8406bbfcb2a6d34ea4df520f.png
+envs:
+  - name: VARIABLE_NAME
+    type: required or otional
+    description: Variable descritption
