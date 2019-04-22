@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#removes old folders
 rm -f ~/.my-credentials || true
 rm -rf /codefresh/volume/${CF_REPO_NAME} || true
 git config --global credential.helper 'store --file ~/.my-credentials'
