@@ -15,4 +15,5 @@ Codefresh Step for Cloning an AWS CodeCommit Git repository
 ```
 
 Recommend putting GIT Credentials into a Shared Configuration
-Note that you need to create a webhook from AWS to use this plugin - see more details in this blog post - https://docs.google.com/document/d/1mIVMLl9WbVHvBaHRduorkS3NhIE42KJRcONg8302ib8/edit?usp=sharing
+
+Note that you need to create a webhook from AWS to use this plugin - see more details in this blog post  https://docs.google.com/document/d/1mIVMLl9WbVHvBaHRduorkS3NhIE42KJRcONg8302ib8/edit?usp=sharing
