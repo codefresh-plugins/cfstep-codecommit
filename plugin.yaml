@@ -12,7 +12,7 @@ sources:
 maintainers: 
   - name: Guy Salton
     email: guy.salton@codefresh.io
-icon: https://d1.awsstatic.com/Projects/aws-product-service-icon/codecommit_console_icon.377d6269182e425b8406bbfcb2a6d34ea4df520f.png
+icon: aws-codecommit.jpg
 envs:
   - name: GIT_USER
     type: required
