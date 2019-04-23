@@ -8,7 +8,7 @@ keywords:
 categories:
   - GIT
 sources:
-  - https://github.com/guysalton-codefresh/cfstep-codecommit
+  - https://github.com/codefresh-contrib/cfstep-codecommit
 maintainers: 
   - name: Guy Salton
     email: guy.salton@codefresh.io
