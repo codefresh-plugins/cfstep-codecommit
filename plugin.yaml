@@ -1,7 +1,6 @@
-image: cfstepcodecommit
-tag: "master"
-version: "0.1.0"
-description: Plugin to ...
+image: codefreshplugins/cfstep-codecommit
+version: 0.1.0
+description: Clone an AWS CodeCommit Git repository
 keywords:
   - codecommit
   - git
