@@ -1,4 +1,4 @@
-image: codefreshplugins/cfstep-codecommit
+image: r.cfcr.io/guysaltoncf/codefreshplugins/cfstep-codecommit
 version: 0.1.0
 description: Clone an AWS CodeCommit Git repository
 keywords:
