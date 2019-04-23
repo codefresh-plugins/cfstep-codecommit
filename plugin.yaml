@@ -3,8 +3,9 @@ tag: "master"
 version: "0.1.0"
 description: Plugin to ...
 keywords:
-  - kw1
-  - kw2
+  - codecommit
+  - git
+  - clone
 categories:
   - GIT
 sources:
@@ -14,6 +15,9 @@ maintainers:
     email: guy.salton@codefresh.io
 icon: https://d1.awsstatic.com/Projects/aws-product-service-icon/codecommit_console_icon.377d6269182e425b8406bbfcb2a6d34ea4df520f.png
 envs:
-  - name: VARIABLE_NAME
-    type: required or otional
-    description: Variable descritption
+  - name: GIT_USER
+    type: required
+    description: AWS CodeCommit Git username
+  - name: GIT_PASSWORD
+    type: required
+    description: AWS CodeCommit Git password
