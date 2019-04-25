@@ -1,5 +1,5 @@
 name: cfstep-codecommit
-image: r.cfcr.io/guysaltoncf/codefreshplugins/cfstep-codecommit
+image: codefreshplugins/cfstep-codecommit
 tag: 0.1.0
 version: 0.1.0
 description: Clone an AWS CodeCommit Git repository
